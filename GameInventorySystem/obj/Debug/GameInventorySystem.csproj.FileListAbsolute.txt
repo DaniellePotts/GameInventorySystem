@@ -1,0 +1,162 @@
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe.config
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csprojResolveAssemblyReference.cache
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.Form1.resources
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.Properties.Resources.resources
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csproj.GenerateResource.Cache
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.pdb
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.exe
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.pdb
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.CreatePlayer.resources
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ShopUI.resources
+E:\Year 2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe.config
+E:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.exe
+E:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.pdb
+E:\Year 2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe
+E:\Year 2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.pdb
+E:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csprojResolveAssemblyReference.cache
+E:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.CreatePlayer.resources
+E:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.Form1.resources
+E:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.Properties.Resources.resources
+E:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ShopUI.resources
+E:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csproj.GenerateResource.Cache
+I:\Year 2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe.config
+I:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.exe
+I:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.pdb
+I:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csprojResolveAssemblyReference.cache
+I:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.CreatePlayer.resources
+I:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.Properties.Resources.resources
+I:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ShopUI.resources
+I:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csproj.GenerateResource.Cache
+I:\Year 2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe
+I:\Year 2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.pdb
+F:\Year 2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe.config
+F:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.exe
+F:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.pdb
+F:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csprojResolveAssemblyReference.cache
+F:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.CreatePlayer.resources
+F:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.Properties.Resources.resources
+F:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ShopUI.resources
+F:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csproj.GenerateResource.Cache
+F:\Year 2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe
+F:\Year 2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.pdb
+D:\University\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe.config
+D:\University\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.exe
+D:\University\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.pdb
+D:\University\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe
+D:\University\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.pdb
+D:\University\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csprojResolveAssemblyReference.cache
+D:\University\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.CreatePlayer.resources
+D:\University\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.Properties.Resources.resources
+D:\University\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ShopUI.resources
+D:\University\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csproj.GenerateResource.Cache
+D:\University\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.MainUIFrm.resources
+H:\University\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe.config
+H:\University\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.exe
+H:\University\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.pdb
+H:\University\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe
+H:\University\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.pdb
+H:\University\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csprojResolveAssemblyReference.cache
+H:\University\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.CreatePlayer.resources
+H:\University\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.MainUIFrm.resources
+H:\University\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.Properties.Resources.resources
+H:\University\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ShopUI.resources
+H:\University\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csproj.GenerateResource.Cache
+D:\Year 2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe.config
+D:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.exe
+D:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.pdb
+F:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.MainUIFrm.resources
+I:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.MainUIFrm.resources
+I:\Year 2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.XML
+G:\Year 2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe.config
+G:\Year 2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.XML
+G:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.exe
+G:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.pdb
+G:\Year 2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe
+G:\Year 2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.pdb
+G:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csprojResolveAssemblyReference.cache
+G:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.CreatePlayer.resources
+G:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.MainUIFrm.resources
+G:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.Properties.Resources.resources
+G:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ShopUI.resources
+G:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csproj.GenerateResource.Cache
+G:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ScavengeUI.resources
+D:\Year 2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.XML
+D:\Year 2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe
+D:\Year 2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.pdb
+D:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csprojResolveAssemblyReference.cache
+D:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.CreatePlayer.resources
+D:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.MainUIFrm.resources
+D:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.Properties.Resources.resources
+D:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ScavengeUI.resources
+D:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ShopUI.resources
+D:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csproj.GenerateResource.Cache
+G:\Year 2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.PlayerInformation.resources
+G:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe.config
+G:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.XML
+G:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.exe
+G:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.pdb
+G:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe
+G:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.pdb
+G:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csprojResolveAssemblyReference.cache
+G:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.MainUIFrm.resources
+G:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.Properties.Resources.resources
+G:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ScavengeUI.resources
+G:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ShopUI.resources
+G:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csproj.GenerateResource.Cache
+D:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe.config
+D:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.XML
+D:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.exe
+D:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.pdb
+D:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe
+D:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.pdb
+D:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csprojResolveAssemblyReference.cache
+D:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.CreatePlayer.resources
+D:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.MainUIFrm.resources
+D:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.PlayerInformation.resources
+D:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.Properties.Resources.resources
+D:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ScavengeUI.resources
+D:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ShopUI.resources
+D:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csproj.GenerateResource.Cache
+G:\Year 2\Assignment2 SD\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.CreatePlayerUI.resources
+G:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe.config
+G:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.XML
+G:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.exe
+G:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.pdb
+G:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe
+G:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.pdb
+G:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csprojResolveAssemblyReference.cache
+G:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.CreatePlayerUI.resources
+G:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.MainUIFrm.resources
+G:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.Properties.Resources.resources
+G:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ScavengeUI.resources
+G:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ShopUI.resources
+G:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csproj.GenerateResource.Cache
+E:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe.config
+E:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.XML
+E:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.exe
+E:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.pdb
+E:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe
+E:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.pdb
+E:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csprojResolveAssemblyReference.cache
+E:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.CreatePlayerUI.resources
+E:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.MainUIFrm.resources
+E:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.Properties.Resources.resources
+E:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ReArrangeItemsUI.resources
+E:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ScavengeUI.resources
+E:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ShopUI.resources
+E:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csproj.GenerateResource.Cache
+F:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe.config
+F:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.XML
+F:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.exe
+F:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.pdb
+F:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.exe
+F:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\bin\Debug\GameInventorySystem.pdb
+F:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csprojResolveAssemblyReference.cache
+F:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.CreatePlayerUI.resources
+F:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.MainUIFrm.resources
+F:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.Properties.Resources.resources
+F:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ReArrangeItemsUI.resources
+F:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ScavengeUI.resources
+F:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.ShopUI.resources
+F:\Year 2\Assignment2 SD\Assignment2\GameInventorySystem\GameInventorySystem\obj\Debug\GameInventorySystem.csproj.GenerateResource.Cache

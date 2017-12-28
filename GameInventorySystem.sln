@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameInventorySystem", "GameInventorySystem\GameInventorySystem.csproj", "{BEF7FE52-9725-4A17-AA09-9734C7489C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest2", "UnitTest2\UnitTest2.csproj", "{CF29E4D2-FC83-4A0B-8808-B3F65D835192}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEF7FE52-9725-4A17-AA09-9734C7489C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF7FE52-9725-4A17-AA09-9734C7489C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF7FE52-9725-4A17-AA09-9734C7489C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF7FE52-9725-4A17-AA09-9734C7489C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF29E4D2-FC83-4A0B-8808-B3F65D835192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF29E4D2-FC83-4A0B-8808-B3F65D835192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF29E4D2-FC83-4A0B-8808-B3F65D835192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF29E4D2-FC83-4A0B-8808-B3F65D835192}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

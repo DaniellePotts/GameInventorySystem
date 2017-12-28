@@ -1,0 +1,60 @@
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\UnitTest2\bin\Debug\UnitTest2.dll
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\UnitTest2\bin\Debug\UnitTest2.pdb
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\UnitTest2\bin\Debug\GameInventorySystem.exe
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\UnitTest2\bin\Debug\GameInventorySystem.pdb
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.csprojResolveAssemblyReference.cache
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.dll
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.pdb
+I:\Year 2\GameInventorySystem\UnitTest2\bin\Debug\UnitTest2.dll
+I:\Year 2\GameInventorySystem\UnitTest2\bin\Debug\UnitTest2.pdb
+I:\Year 2\GameInventorySystem\UnitTest2\bin\Debug\GameInventorySystem.exe
+I:\Year 2\GameInventorySystem\UnitTest2\bin\Debug\GameInventorySystem.pdb
+I:\Year 2\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.csprojResolveAssemblyReference.cache
+I:\Year 2\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.dll
+I:\Year 2\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.pdb
+F:\Year 2\GameInventorySystem\UnitTest2\bin\Debug\UnitTest2.dll
+F:\Year 2\GameInventorySystem\UnitTest2\bin\Debug\UnitTest2.pdb
+F:\Year 2\GameInventorySystem\UnitTest2\bin\Debug\GameInventorySystem.exe
+F:\Year 2\GameInventorySystem\UnitTest2\bin\Debug\GameInventorySystem.pdb
+F:\Year 2\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.csprojResolveAssemblyReference.cache
+F:\Year 2\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.dll
+F:\Year 2\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.pdb
+D:\University\GameInventorySystem\UnitTest2\bin\Debug\UnitTest2.dll
+D:\University\GameInventorySystem\UnitTest2\bin\Debug\UnitTest2.pdb
+D:\University\GameInventorySystem\UnitTest2\bin\Debug\GameInventorySystem.exe
+D:\University\GameInventorySystem\UnitTest2\bin\Debug\GameInventorySystem.pdb
+D:\University\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.csprojResolveAssemblyReference.cache
+D:\University\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.dll
+D:\University\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.pdb
+H:\University\GameInventorySystem\UnitTest2\bin\Debug\UnitTest2.dll
+H:\University\GameInventorySystem\UnitTest2\bin\Debug\UnitTest2.pdb
+H:\University\GameInventorySystem\UnitTest2\bin\Debug\GameInventorySystem.exe
+H:\University\GameInventorySystem\UnitTest2\bin\Debug\GameInventorySystem.pdb
+H:\University\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.csprojResolveAssemblyReference.cache
+H:\University\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.dll
+H:\University\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.pdb
+I:\Year 2\GameInventorySystem\UnitTest2\bin\Debug\GameInventorySystem.xml
+G:\Year 2\GameInventorySystem\UnitTest2\bin\Debug\UnitTest2.dll
+G:\Year 2\GameInventorySystem\UnitTest2\bin\Debug\UnitTest2.pdb
+G:\Year 2\GameInventorySystem\UnitTest2\bin\Debug\GameInventorySystem.exe
+G:\Year 2\GameInventorySystem\UnitTest2\bin\Debug\GameInventorySystem.pdb
+G:\Year 2\GameInventorySystem\UnitTest2\bin\Debug\GameInventorySystem.xml
+G:\Year 2\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.csprojResolveAssemblyReference.cache
+G:\Year 2\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.dll
+G:\Year 2\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.pdb
+D:\Year 2\GameInventorySystem\UnitTest2\bin\Debug\UnitTest2.dll
+D:\Year 2\GameInventorySystem\UnitTest2\bin\Debug\UnitTest2.pdb
+D:\Year 2\GameInventorySystem\UnitTest2\bin\Debug\GameInventorySystem.exe
+D:\Year 2\GameInventorySystem\UnitTest2\bin\Debug\GameInventorySystem.pdb
+D:\Year 2\GameInventorySystem\UnitTest2\bin\Debug\GameInventorySystem.xml
+D:\Year 2\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.csprojResolveAssemblyReference.cache
+D:\Year 2\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.dll
+D:\Year 2\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.pdb
+G:\Year 2\Assignment2 SD\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.csprojResolveAssemblyReference.cache
+G:\Year 2\Assignment2 SD\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.dll
+G:\Year 2\Assignment2 SD\GameInventorySystem\UnitTest2\bin\Debug\UnitTest2.dll
+G:\Year 2\Assignment2 SD\GameInventorySystem\UnitTest2\bin\Debug\UnitTest2.pdb
+G:\Year 2\Assignment2 SD\GameInventorySystem\UnitTest2\bin\Debug\GameInventorySystem.exe
+G:\Year 2\Assignment2 SD\GameInventorySystem\UnitTest2\bin\Debug\GameInventorySystem.pdb
+G:\Year 2\Assignment2 SD\GameInventorySystem\UnitTest2\bin\Debug\GameInventorySystem.xml
+G:\Year 2\Assignment2 SD\GameInventorySystem\UnitTest2\obj\Debug\UnitTest2.pdb

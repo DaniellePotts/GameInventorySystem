@@ -1,0 +1,7 @@
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\UnitTest1\bin\Debug\UnitTest1.dll
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\UnitTest1\bin\Debug\UnitTest1.pdb
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\UnitTest1\bin\Debug\GameInventorySystem.exe
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\UnitTest1\bin\Debug\GameInventorySystem.pdb
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\UnitTest1\obj\Debug\UnitTest1.csprojResolveAssemblyReference.cache
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\UnitTest1\obj\Debug\UnitTest1.dll
+C:\Users\Danielle\SkyDrive\Documents\Revision C#\GameInventorySystem\UnitTest1\obj\Debug\UnitTest1.pdb

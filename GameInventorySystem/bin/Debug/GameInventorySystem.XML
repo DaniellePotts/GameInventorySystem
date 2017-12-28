@@ -1,0 +1,852 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GameInventorySystem</name>
+    </assembly>
+    <members>
+        <member name="T:GameInventorySystem.AppData">
+            <summary>
+            to hold constants and data file names
+            </summary>
+        </member>
+        <member name="F:GameInventorySystem.AppData.PLAYER_SAVE_FILE">
+            <summary>
+            players file
+            </summary>
+        </member>
+        <member name="F:GameInventorySystem.AppData.SHOP_SAVE_FILE">
+            <summary>
+            shop save file
+            </summary>
+        </member>
+        <member name="T:GameInventorySystem.EquipWeaponException">
+            <summary>
+            this exception is thrown when the user attempts to equip more then one weapon at a time
+            </summary>
+        </member>
+        <member name="T:GameInventorySystem.ExperiencePointBoost">
+            <summary>
+            class to increase players exp
+            </summary>
+        </member>
+        <member name="P:GameInventorySystem.ExperiencePointBoost.Name">
+            <summary>
+            instance variables
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.ExperiencePointBoost.#ctor(System.String,System.Int32,System.Double)">
+            <summary>
+            constructor to assign the name, exp amount and price of the item to be bought and sold
+            </summary>
+            <param name="name"></param>
+            <param name="increaseEXP"></param>
+            <param name="Price"></param>
+        </member>
+        <member name="M:GameInventorySystem.ExperiencePointBoost.ToString">
+            <summary>
+            return the name of the item
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GameInventorySystem.ExperiencePointBoost.Display">
+            <summary>
+            display more information about the item.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GameInventorySystem.ExperiencePointBoost.useItem(GameInventorySystem.Player)">
+            <summary>
+            increases the users exp, the player may level up if it now means their exp is at 100 or more.
+            </summary>
+            <param name="p"></param>
+        </member>
+        <member name="T:GameInventorySystem.ConsumableItem">
+            <summary>
+            consumeable item is an abstract class. it inherits from IUsableItem and is serializable. 
+            </summary>
+        </member>
+        <member name="P:GameInventorySystem.ConsumableItem.Name">
+            <summary>
+            variables that all subclasses will inherit
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.ConsumableItem.ToString">
+            <summary>
+            return name of item
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GameInventorySystem.ConsumableItem.Display">
+            <summary>
+            display method which is overridable by consumeables child classes. it outputs all information to do with each object.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GameInventorySystem.ConsumableItem.useItem(GameInventorySystem.Player)">
+            <summary>
+            let the player use the item. this method is also overrideable. the method removes whatever item it is the player has selected from their list.
+            </summary>
+            <param name="p"></param>
+        </member>
+        <member name="T:GameInventorySystem.HealthItem">
+            <summary>
+            healthitem is an item that specializes in health increase. 
+            </summary>
+        </member>
+        <member name="P:GameInventorySystem.HealthItem.IncreaseHealth">
+            <summary>
+            unquie variable for this class. to increase the players health stat.
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.HealthItem.useItem(GameInventorySystem.Player)">
+            <summary>
+            inherited from consumeable. it uses the base function of removing the item from the players item list, but also increases the players health sta
+            </summary>
+            <param name="p"></param>
+        </member>
+        <member name="M:GameInventorySystem.HealthItem.Display">
+            <summary>
+            inherited from cosumeable and also returns details in the string that are exclusive to health item
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:GameInventorySystem.SpeedItem">
+            <summary>
+            speed item, an item that specializes in speed increase
+            </summary>
+        </member>
+        <member name="P:GameInventorySystem.SpeedItem.increaseSpeed">
+            <summary>
+            unqiue variable for this class. to imrpove the players speed stat
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.SpeedItem.Display">
+            <summary>
+            inherited from consumeable. it includes information in the string that is exclusive to speed items
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GameInventorySystem.SpeedItem.useItem(GameInventorySystem.Player)">
+            <summary>
+            inherited from consumeable. it performs the same actions as the parent class and also increases the players speed stat
+            </summary>
+            <param name="p"></param>
+        </member>
+        <member name="T:GameInventorySystem.DefenseItem">
+            <summary>
+            defense item, an item that specializes in defense increase
+            </summary>
+        </member>
+        <member name="P:GameInventorySystem.DefenseItem.increaseDefense">
+            <summary>
+            unquie variable for this class, to improve the players defense stat
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.DefenseItem.Display">
+            <summary>
+            inherited from consumeable. it also returns information in the string that is exclusive to defense items
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GameInventorySystem.DefenseItem.useItem(GameInventorySystem.Player)">
+            <summary>
+            inherited from consumeable. it also increases the players defense stat.
+            </summary>
+            <param name="p"></param>
+        </member>
+        <member name="T:GameInventorySystem.LevelUpItem">
+            <summary>
+            level up item, this item levels up the player when used.
+            </summary>
+        </member>
+        <member name="P:GameInventorySystem.LevelUpItem.LevelUpPlayer">
+            <summary>
+            unquie variable for this class, to imrpove the level of the player.
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.LevelUpItem.Display">
+            <summary>
+            displays the same infromation as the super class, and also the level value of the item
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GameInventorySystem.LevelUpItem.useItem(GameInventorySystem.Player)">
+             <summary>
+             inherits from the superclass, but also increases the players level when it is used. the game checks that the players level is below 50 first,
+            if it isn't, it throws an exception
+             </summary>
+             <param name="p"></param>
+        </member>
+        <member name="T:GameInventorySystem.CreatePlayerUI">
+            <summary>
+            this form is the UI to allow the user to create a new player.
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.CreatePlayerUI.createPlayer">
+            <summary>
+            creates a new player with the name the player gives it and return it to the mainUI to generate a new player
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GameInventorySystem.CreatePlayerUI.btnBack_Click(System.Object,System.EventArgs)">
+            <summary>
+            return the main UI
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:GameInventorySystem.CreatePlayerUI.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.CreatePlayerUI.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:GameInventorySystem.CreatePlayerUI.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:GameInventorySystem.DataFileReaderWriter">
+            <summary>
+            this class lets the player serialize and deserialize both the player data and the shop data. it inherits from IFileWriterReader
+            and can be converted into a new project easily, also, this makes it easier if the user wishes to read from text files rather then 
+            data files
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.DataFileReaderWriter.SaveGameData(GameInventorySystem.GameData,System.String)">
+            <summary>
+            serialize a serializeable object. this can be either a player or a shop currently. but it could be any object that inherits
+            the ISerializableObject interface
+            </summary>
+            <param name="obj"></param>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:GameInventorySystem.DataFileReaderWriter.LoadGameData(GameInventorySystem.GameData,System.String)">
+            <summary>
+            deserialize a file and return an ISerializableObject to be assigned to an object in the main program. we throw a null
+            file exception if the player file is loaded and it has no data. this is only applicable if it is a player because in 
+            the system, the user can create and save a player without ever having to access the shop. so, it doesnt matter if the shop
+            is null when the system is loading from the files. 
+            </summary>
+            <param name="obj"></param>
+            <param name="filePath"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GameInventorySystem.FileNotLoadedProperlyException">
+            <summary>
+            exception for a file not existing
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.FileNotLoadedProperlyException.#ctor">
+            <summary>
+            constructor
+            </summary>
+        </member>
+        <member name="T:GameInventorySystem.GameData">
+            <summary>
+            this class will hold the games save data, which includes an instance of the shop class and an instance of the player class
+            </summary>
+        </member>
+        <member name="P:GameInventorySystem.GameData.shop">
+            <summary>
+            instance variables. these will hold the main csharp player and shop variable data to save, and will be used to assign loaded data to them 
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.GameData.#ctor(GameInventorySystem.Player,GameInventorySystem.Shop)">
+            <summary>
+            constructor with parameters
+            </summary>
+            <param name="player"></param>
+            <param name="shop"></param>
+        </member>
+        <member name="M:GameInventorySystem.GameData.#ctor">
+            <summary>
+            parameterless constructor
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.GameData.SetData(GameInventorySystem.Player,GameInventorySystem.Shop)">
+            <summary>
+            this sets the gamedata that needs to be saved. it checks to see if the shop is null (i.e, the user has not yet acccessed the shop
+            before they saved the game and quit, so ShopUI.store is null) so this function creates a new instance of the shop.
+            </summary>
+            <param name="player"></param>
+            <param name="shop"></param>
+        </member>
+        <member name="T:GameInventorySystem.MainUIFrm">
+            <summary>
+            the main form where the majority of the functionality is carried out. 
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.MainUIFrm.Form1_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            asks the player if they wish to save their data.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GameInventorySystem.MainUIFrm.DisplayDetails(GameInventorySystem.Player)">
+            <summary>
+            display the players details. this includes their name, their level, how much money they have. and how many items they have in their inventory in comparison with the max amount they're allowed, this 
+            information is in AppData/AppData.MAX_BAG_ITEMS
+            </summary>
+            <param name="p"></param>
+        </member>
+        <member name="M:GameInventorySystem.MainUIFrm.DisplayInventory(GameInventorySystem.ItemList)">
+            <summary>
+            display the players inventory in a list
+            </summary>
+            <param name="iv"></param>
+        </member>
+        <member name="M:GameInventorySystem.MainUIFrm.LoadData">
+            <summary>
+            load the users data, this function loads both the shop and the player data from the GameData object
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.MainUIFrm.SaveData">
+            <summary>
+            save the gamedata. create a new instance of GameData, assign the appriopriate values to it's variables through a method and then
+            save the gamedata object
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.MainUIFrm.btnShop_Click(System.Object,System.EventArgs)">
+            <summary>
+            the shop button opens up the shop form if there is a player (if there is no player, there is no way they can store items as the inventory is part of the player class). if the shop form returns
+            a dialog result of "OK" then the system will add the item the player has bought to their inventory list and then updates the appropriate information. it holds a try and catch to catch an exception
+            for the player trying to add more then AppData.MAX_BAG_ITEMS to their inventory.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GameInventorySystem.MainUIFrm.btnRemove_Click(System.Object,System.EventArgs)">
+            <summary>
+            allows the player to remove
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GameInventorySystem.MainUIFrm.btnDetails_Click(System.Object,System.EventArgs)">
+            <summary>
+            shows more information about the selected item
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GameInventorySystem.MainUIFrm.btnCreate_Click(System.Object,System.EventArgs)">
+            <summary>
+            opens up the create player form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GameInventorySystem.MainUIFrm.btnUseItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            lets the player use the selected item. it will throw an exception if the players level is too high. information for this is in AppData/AppData.MAX_LEVEL
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GameInventorySystem.MainUIFrm.btnPlayerInfo_Click(System.Object,System.EventArgs)">
+            <summary>
+            displays more information about the player. i.e their stats
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GameInventorySystem.MainUIFrm.btnLook_Click(System.Object,System.EventArgs)">
+            <summary>
+            opens up the scavenge form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GameInventorySystem.MainUIFrm.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            this is the unequip button. it only appears if the player has an item equipped.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GameInventorySystem.MainUIFrm.saveToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            lets the player save their data
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GameInventorySystem.MainUIFrm.loadToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            lets the player load data
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:GameInventorySystem.MainUIFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.MainUIFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:GameInventorySystem.MainUIFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:GameInventorySystem.IUseableItem">
+            <summary>
+            to allow for polymorphism in the itemlist
+            </summary>
+        </member>
+        <member name="T:GameInventorySystem.IFileWriterReader">
+            <summary>
+            interface for filereading and writing. this can be easily converted to work with text files. for now it only works with serialization
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.IFileWriterReader.SaveGameData(GameInventorySystem.GameData,System.String)">
+            <summary>
+            save a serializableObject and pass in the file name 
+            </summary>
+            <param name="obj"></param>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:GameInventorySystem.IFileWriterReader.LoadGameData(GameInventorySystem.GameData,System.String)">
+            <summary>
+            load game data from a data file.
+            </summary>
+            <param name="obj"></param>
+            <param name="filePath"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GameInventorySystem.ItemList">
+            <summary>
+            item list exists to hold the players inventory items as well as the stock items of the store. it has a number of functions
+            such as adding and removing items from list.
+            </summary>
+        </member>
+        <member name="P:GameInventorySystem.ItemList.Item(System.Int32)">
+            <summary>
+            return an item based on the index provided
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GameInventorySystem.ItemList.#ctor">
+            <summary>
+            constructor
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.ItemList.GetInventoryCount">
+            <summary>
+            return how many items there are in the inventory list
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GameInventorySystem.ItemList.AddItem(GameInventorySystem.IUseableItem)">
+            <summary>
+            allow the user to add an item to the list. the user is able to add 2 of the same item to the list at this point, however
+            the user is not allowed to add more then AppData.MAX_BAG_ITEMS to the list.
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GameInventorySystem.ItemList.RemoveItem(GameInventorySystem.IUseableItem)">
+            <summary>
+            let the user remove an item from their inventory
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GameInventorySystem.ItemList.ClearList">
+            <summary>
+            clears the list. set as protected
+            </summary>
+        </member>
+        <member name="T:GameInventorySystem.IUserInterface">
+            <summary>
+            interface to enable ploymorphism between different UIs, this way the program can be easily converted into a console application or other
+            things
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.IUserInterface.DisplayDetails(GameInventorySystem.Player)">
+            <summary>
+            display the players details (name, level etc)
+            </summary>
+            <param name="p"></param>
+        </member>
+        <member name="M:GameInventorySystem.IUserInterface.DisplayInventory(GameInventorySystem.ItemList)">
+            <summary>
+            display the players inventory in a list
+            </summary>
+            <param name="inven"></param>
+        </member>
+        <member name="M:GameInventorySystem.IUserInterface.LoadData">
+            <summary>
+            load data from a file via deserialization
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.IUserInterface.SaveData">
+            <summary>
+            save data to a file via serialization
+            </summary>
+        </member>
+        <member name="T:GameInventorySystem.NotEnoughMoneyException">
+            <summary>
+            to alert the user when they dont have enough money to buy an item
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.NotEnoughMoneyException.#ctor">
+            <summary>
+            constructor
+            </summary>
+        </member>
+        <member name="T:GameInventorySystem.NullFileException">
+            <summary>
+            exception for a file having no data in it.
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.NullFileException.#ctor">
+            <summary>
+            constructor
+            </summary>
+        </member>
+        <member name="T:GameInventorySystem.Player">
+            <summary>
+            serializable class. 
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.Player.#ctor(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Double,GameInventorySystem.ItemList)">
+            <summary>
+            constructor 
+            </summary>
+            <param name="name"></param>
+            <param name="health"></param>
+            <param name="atk"></param>
+            <param name="defense"></param>
+            <param name="speed"></param>
+            <param name="money"></param>
+            <param name="inven"></param>
+        </member>
+        <member name="M:GameInventorySystem.Player.#ctor">
+            <summary>
+            empty constructor for deserialization
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.Player.ToString">
+            <summary>
+            returns the players name and level
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GameInventorySystem.Player.Display">
+            <summary>
+            displays all of the players details. unlike tostring which only displays their name and level
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GameInventorySystem.Player.LevelUp(System.Int32)">
+            <summary>
+            lets the player level up if they have enough experience points. if they have 100 then the player will level up. 
+            </summary>
+            <param name="exp"></param>
+        </member>
+        <member name="M:GameInventorySystem.Player.EquipWeapon(GameInventorySystem.Weapon)">
+            <summary>
+            lets the user equip a weapon. throws exception if a weapon is already equipped
+            </summary>
+            <param name="weapon"></param>
+        </member>
+        <member name="M:GameInventorySystem.Player.UnEquipWeapon(GameInventorySystem.Weapon)">
+            <summary>
+            unequips whatever the weapon is the player has equipped
+            </summary>
+            <param name="weapon"></param>
+        </member>
+        <member name="M:GameInventorySystem.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="F:GameInventorySystem.ReArrangeItemsUI.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.ReArrangeItemsUI.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:GameInventorySystem.ReArrangeItemsUI.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:GameInventorySystem.Scavenge">
+            <summary>
+            this class lets the player look for an item in the scavengeUI form. it returns an item based on the random number generated. it can return any useable item.
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.Scavenge.#ctor">
+            <summary>
+            empty constructor.
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.Scavenge.ScavengeForItem">
+            <summary>
+            returns an item based on a random number. 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:GameInventorySystem.ScavengeUI">
+            <summary>
+            this form lets the player scavenge for an item. it is a simple form with only one method 
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.ScavengeUI.ScavengeForItem">
+            <summary>
+            generate a random item from the scavengeforitem function inside the scavenge class
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GameInventorySystem.ScavengeUI.btnBack_Click(System.Object,System.EventArgs)">
+            <summary>
+            go back to the main UI
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:GameInventorySystem.ScavengeUI.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.ScavengeUI.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:GameInventorySystem.ScavengeUI.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:GameInventorySystem.Shop">
+            <summary>
+            shop class that inherits from ISerializableObject. this class handles the purchasing and selling of items between it and the
+            player class. it is serializable and is serialized with the player as part of the entire game data
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.Shop.SellItem(GameInventorySystem.Player,GameInventorySystem.IUseableItem)">
+            <summary>
+            let the player buy an item from the shop. if the player has enough money, they will be able to buy the item from the shop
+            //if they do, the item will be removed from the shops inventory, the value of the item bought will be added to the shops
+            money and deducted from the players
+            </summary>
+            <param name="p"></param>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GameInventorySystem.Shop.BuyItem(GameInventorySystem.Player,GameInventorySystem.IUseableItem)">
+            <summary>
+            this function allows the shop to buy an item from the player if the shop has enough money. if it does, then the item
+            is removed from the players inventory,and the value of the item bought is added to the players money and deducted from
+            the shops. 
+            </summary>
+            <param name="p"></param>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GameInventorySystem.Shop.GenerateData(GameInventorySystem.ItemList)">
+            <summary>
+            generate the shops data. this data is generated based on a random number and the random items are added to the shops
+            item list
+            </summary>
+            <param name="items"></param>
+        </member>
+        <member name="T:GameInventorySystem.ShopUI">
+            <summary>
+            UI for the shop. this form contains all of the relevant controls for the shop system. including buying and selling.
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.ShopUI.Shop_Load(System.Object,System.EventArgs)">
+            <summary>
+            this will create a new shop if there isn't already one (if there is already one, then the player has loaded in a file) also, if the stores shopitem list is empty, it
+            will generate a new array of items from the GenerateData function in the Shop class. this way, the shop will never be empty. 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GameInventorySystem.ShopUI.DisplayShopItems(GameInventorySystem.Shop)">
+            <summary>
+            display the shop inventory
+            </summary>
+            <param name="s"></param>
+        </member>
+        <member name="M:GameInventorySystem.ShopUI.DisplayShopInformation(GameInventorySystem.Shop)">
+            <summary>
+            displays the shop item information i.e the price.
+            </summary>
+            <param name="s"></param>
+        </member>
+        <member name="M:GameInventorySystem.ShopUI.BuyItem">
+            <summary>
+            lets the player buy an item if they have enough money. returns the item to the mainUI if they player has enough money. if not, then it throws and exception and returns
+            a null value
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GameInventorySystem.ShopUI.DisplayPlayersInventory(GameInventorySystem.Player)">
+            <summary>
+            if the width of the form is greater then 500 then the user has chosen to sell something. when this happens, a second list box will be populated containing the users 
+            inventory items.
+            </summary>
+            <param name="p"></param>
+        </member>
+        <member name="M:GameInventorySystem.ShopUI.DisplayPlayersInformation(GameInventorySystem.Player)">
+            <summary>
+            similar to the inventory function, if the form width is greater then 500 then the player has chosen to sell something. if this is the case, then we want to
+            display the players information. this for now, only includes how much money they have. but can change as the system is upgrade/updated
+            </summary>
+            <param name="p"></param>
+        </member>
+        <member name="M:GameInventorySystem.ShopUI.btnBack_Click(System.Object,System.EventArgs)">
+            <summary>
+            goes back to the mainUI
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GameInventorySystem.ShopUI.btnViewItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            displays more information about the item the player has selected.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GameInventorySystem.ShopUI.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            this is btnExpandForm, this expands the forms width to display more functionality. it renders the grpBox controls as unuseable, and makes the shop list unable to
+            to be selected. it also displays the players inventory and details.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GameInventorySystem.ShopUI.btnSell_Click(System.Object,System.EventArgs)">
+            <summary>
+            this lets the shop buy an item from the player, if the shop has enough money, if it doesn't then it throws an exception. also, if the shop has too many items in stock
+            it will throw an exception. it then updates all relevant information
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GameInventorySystem.ShopUI.btnReturn_Click(System.Object,System.EventArgs)">
+            <summary>
+            this button returns the player to the normal shopUI. it drops the width of the form back down and enables all functionality that is relevant.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GameInventorySystem.ShopUI.btnExit_Click(System.Object,System.EventArgs)">
+            <summary>
+            performs the same functionality as btnReturn but also closes the shopUI and returns the player back to the main UI
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:GameInventorySystem.ShopUI.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.ShopUI.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:GameInventorySystem.ShopUI.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:GameInventorySystem.TooManyItemsException">
+            <summary>
+            to restrict inventory items amount
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.TooManyItemsException.#ctor">
+            <summary>
+            constructor
+            </summary>
+        </member>
+        <member name="T:GameInventorySystem.Weapon">
+            <summary>
+            weapon class inherits from Iuseableitem interface and can be store in the item list. it improves the users attack power
+            currently
+            </summary>
+        </member>
+        <member name="P:GameInventorySystem.Weapon.Name">
+            <summary>
+            instance variables
+            </summary>
+        </member>
+        <member name="M:GameInventorySystem.Weapon.Display">
+            <summary>
+            display the items details
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GameInventorySystem.Weapon.ToString">
+            <summary>
+            override string
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GameInventorySystem.Weapon.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>
+            constructor
+            </summary>
+            <param name="name"></param>
+            <param name="attackInc"></param>
+            <param name="Price"></param>
+        </member>
+        <member name="M:GameInventorySystem.Weapon.useItem(GameInventorySystem.Player)">
+            <summary>
+            let the player use the item. the player equips the item, the item is removed from their inventory, and the players attack stat is increased
+            </summary>
+            <param name="p"></param>
+        </member>
+        <member name="T:GameInventorySystem.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:GameInventorySystem.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:GameInventorySystem.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
