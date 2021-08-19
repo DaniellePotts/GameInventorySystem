@@ -14,9 +14,3 @@ Project is a simple game inventory system that includes features:
 - lets user equip items
 - lets user buy and sell items in a shop
 - lets user save their player
-
-System is not a full game, just an inventory - with potential to be extended in the future... when I get time! 
-
-Assignment included minor documentation and diagrams including a UML (which I can no longer find) :)
-
-Assignment mark: 100%
